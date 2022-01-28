@@ -1,6 +1,6 @@
 # Food Order React Application
 
-This is a food order order application built with the React library and covers all the core concepts in React.
+This is a food order application built with the React library and covers all the core concepts in React.
 
 ## The project
 
