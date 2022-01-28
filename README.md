@@ -14,6 +14,11 @@ Users should be able to:
 
 ![screen-capture (5)](https://user-images.githubusercontent.com/86558336/151554709-ae3b32ad-2d1b-42ec-ad28-7fe386d8e8be.gif)
 
+### Links
+
+- Project URL: [Code on Github](https://github.com/abdo-kotb/food-order-app)
+- Live Site URL: [Live demo](https://mealsreact.netlify.app/)
+
 ## What I learned
 
 Check out my [React Journey](https://github.com/abdo-kotb/my-react-journey) respository.
