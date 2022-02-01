@@ -9,10 +9,12 @@ Users should be able to:
 - Change the meals amount
 - View the cart and see the added meals and their amount and prices and the total price
 - Change the meals amount directly from the cart
+- **UPDATED** Have a checkout process experience with a form and ordering process
+- **UPDATED** Experience a form validation with error messages
 
 ## Screenshot
 
-![screen-capture (5)](https://user-images.githubusercontent.com/86558336/151554709-ae3b32ad-2d1b-42ec-ad28-7fe386d8e8be.gif)
+**UPDATED** ![screen-capture (7)](https://user-images.githubusercontent.com/86558336/151958408-4421adac-716d-46f2-8c4d-96621fc1231d.gif)
 
 ### Links
 
