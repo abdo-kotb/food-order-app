@@ -1,0 +1,74 @@
+.checkout-form {
+  height: 12rem;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.checkout-form label {
+  width: 6rem !important;
+  margin: 0 !important;
+}
+
+.checkout-form input {
+  width: 10rem !important;
+}
+
+.checkout-form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.checkout-form button:hover,
+.checkout-form button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.checkout-form .button--alt {
+  color: #8a2b06;
+}
+
+.checkout-form .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.checkout-invalid label {
+  color: red;
+  position: relative;
+}
+
+.checkout-invalid input {
+  border-color: red !important;
+}
+
+.checkout-invalid label::after {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+  width: max-content;
+}
+
+.checkout-invalid label[for='name']::after {
+  content: 'Please enter a valid name';
+}
+.checkout-invalid label[for='street']::after {
+  content: 'Please enter a valid address';
+}
+.checkout-invalid label[for='postal']::after {
+  content: 'Please enter a valid postal code (4 numbers long)';
+}
+.checkout-invalid label[for='city']::after {
+  content: 'Please enter a valid city name';
+}

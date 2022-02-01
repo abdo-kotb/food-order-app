@@ -4,7 +4,7 @@ import styles from './Input.module.css';
 
 const Input = react.forwardRef(function (props, ref) {
   return (
-    <fieldset className={styles.input}>
+    <fieldset className={`${styles.input} ${props.className}`}>
       <label htmlFor={props.input.id}>{props.label}</label>
       <input ref={ref} id={props.id} {...props.input} />
     </fieldset>
